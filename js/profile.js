@@ -28,7 +28,7 @@ const profile = {
 
     ],
     education: "Ik doe op het moment software development bij het ROC Mondriaan.",
-    skills: "fixing pc's",
+    skills: "repareren en upgraden van pc's",
     laungauges: ["Nederlands", "Engels", "heel klein beetje Russisch", "beetje Duits", "heel klein beetje Japans zelfs"],
     bannerColor: "Rood",
     socialMedia: "#",
@@ -46,11 +46,11 @@ personal.innerHTML += profile.birthdate + "<br>";
 personal.innerHTML += profile.biography + "<br>";
 personal.innerHTML += profile.laungauges + "<br>";
 personal.innerHTML += profile.skills + "<br>";
-personal.innerHTML += profile.socialMedia + "<br>";
+
 
 for (let index = 0; index < profile.projects.length; index++) {
     const projecty = profile.projects[index];
-    drop.innerHTML += `<div class="col-md-4 mt-3"> <div class="card ">
+    drop.innerHTML += `<div class="col-md-4 mt-3 d-flex align-items-stretch"> <div class="card ">
         <img class="card-img-top" src="${projecty.img}">
         <div class="card-body">
             
