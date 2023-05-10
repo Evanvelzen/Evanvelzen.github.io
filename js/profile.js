@@ -28,8 +28,8 @@ const profile = {
 
     ],
     education: "Ik doe op het moment software development bij het ROC Mondriaan.",
-    skills: "repareren en upgraden van pc's",
-    laungauges: ["Nederlands", "Engels", "heel klein beetje Russisch", "beetje Duits", "heel klein beetje Japans zelfs."],
+    skills: "Repareren en upgraden van pc's.",
+    laungauges: ["Talen die ik spreek", "Nederlands", "Engels", "heel klein beetje Russisch", "beetje Duits", "heel klein beetje Japans zelfs."],
     bannerColor: "Rood",
     socialMedia: "#",
 }
