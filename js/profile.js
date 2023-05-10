@@ -1,8 +1,8 @@
 const drop = document.querySelector(".location")
 const personal = document.querySelector(".personal-info")
 const profile = {
-    emailAdress: "SchoolEmail: 302942781@student.rocmondriaan.nl ",
-    username: "Gebruikersnaam: EvanVelzen",
+    emailAdress: "SchoolEmail: 302942781@student.rocmondriaan.nl.",
+    username: "Gebruikersnaam: EvanVelzen.",
     birthdate: "Verjaardag : 22-05-2003",
     biography: "Ik ben geboren op 22 mei 2003 en getochen in Nederland.",
     projects: [
@@ -29,7 +29,7 @@ const profile = {
     ],
     education: "Ik doe op het moment software development bij het ROC Mondriaan.",
     skills: "repareren en upgraden van pc's",
-    laungauges: ["Nederlands", "Engels", "heel klein beetje Russisch", "beetje Duits", "heel klein beetje Japans zelfs"],
+    laungauges: ["Nederlands", "Engels", "heel klein beetje Russisch", "beetje Duits", "heel klein beetje Japans zelfs."],
     bannerColor: "Rood",
     socialMedia: "#",
 }
