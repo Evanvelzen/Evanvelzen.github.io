@@ -79,7 +79,7 @@ for (let index = 0; index < profile.socialMedia.length; index++) {
                 
                 <h4 class="card-title">${social.title}</h4>
       
-                <a href="${social.link}">link to social</a>
+                <a class="text-primary text-decoration-none" href="${social.link}">link to social</a>
             </div>
         </div>
        </div>`
