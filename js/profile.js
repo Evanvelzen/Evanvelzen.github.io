@@ -5,28 +5,6 @@ const profile = {
     username: "Gebruikersnaam: EvanVelzen.",
     birthdate: "Verjaardag : 22-05-2003",
     biography: "Ik ben geboren op 22 mei 2003 en getochen in Nederland.",
-    // projects: [
-    //     {
-    //         title: "boter, kaas en eiereren",
-    //         description: "Een simpel boter kaas en eieren spelletje.",
-    //         img: "",
-    //         teamMates: []
-    //     },
-    //     {
-    //         title: "webCatalogus",
-    //         description: "een Webcatalogus over games.",
-    //         img: "",
-    //         teamMates: [{
-    //             fullName: "David Aalderink",
-    //             link: "Daalderink.github.io"
-    //         },
-    //         {
-    //             fullName: "Nathen Alberto",
-    //             link: "Nalberto.github.io"
-    //         }]
-    //     },
-
-    // ],
     education: "Ik doe op het moment software development bij het ROC Mondriaan.",
     skills: "Repareren en upgraden van pc's.",
     bannerColor: "Rood",
@@ -51,7 +29,6 @@ personal.innerHTML += profile.emailAdress + "<br>";
 personal.innerHTML += profile.birthdate + "<br>";
 
 personal.innerHTML += profile.biography + "<br>";
-personal.innerHTML += profile.laungauges + "<br>";
 personal.innerHTML += profile.skills + "<br>";
 
 
