@@ -29,7 +29,6 @@ const profile = {
     // ],
     education: "Ik doe op het moment software development bij het ROC Mondriaan.",
     skills: "Repareren en upgraden van pc's.",
-    laungauges: ["Talen die ik spreek", "Nederlands", "Engels", "heel klein beetje Russisch", "beetje Duits", "heel klein beetje Japans zelfs."],
     bannerColor: "Rood",
     socialMedia: [{
         title: "Facebook",
@@ -79,7 +78,7 @@ for (let index = 0; index < profile.socialMedia.length; index++) {
                 
                 <h4 class="card-title">${social.title}</h4>
       
-                <a class="text-primary text-decoration-none" href="${social.link}">link to social</a>
+                <a class="text-primary text-decoration-none " href="${social.link}">link to social</a>
             </div>
         </div>
        </div>`
