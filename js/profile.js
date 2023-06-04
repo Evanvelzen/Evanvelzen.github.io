@@ -14,7 +14,7 @@ const profile = {
         link: "https://www.facebook.com/profile.php?id=100008801014229"
     }, {
         title: "Instagram",
-        img: "/img/instagram_icon.png",
+        img: "/img/Instagram_icon.png",
         link: "https://www.instagram.com/emielvanvelzen/"
     }]
 }
