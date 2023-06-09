@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/onlymp3.to - Forest Sounds.mp3-51006e5e25dd1be4684748db7b8fe732.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/onlymp3.to - Forest Sounds.mp3"
+dest_files=[ "res://.import/onlymp3.to - Forest Sounds.mp3-51006e5e25dd1be4684748db7b8fe732.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

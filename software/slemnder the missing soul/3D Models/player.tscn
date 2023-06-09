@@ -1,0 +1,87 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://assets/fonts/conjuring.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://assets/3D Models/flashlightl.tscn" type="PackedScene" id=2]
+[ext_resource path="res://3D Models/player.gd" type="Script" id=3]
+
+[sub_resource type="CapsuleShape" id=1]
+
+[sub_resource type="DynamicFont" id=2]
+size = 75
+font_data = ExtResource( 1 )
+
+[sub_resource type="Animation" id=3]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Label:text")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ "Rec" ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "blinking"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Label:text")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ "Rec", "" ]
+}
+
+[sub_resource type="CylinderShape" id=5]
+height = 2.5
+radius = 1.1
+
+[node name="player" type="KinematicBody"]
+collision_layer = 4
+collision_mask = 9
+script = ExtResource( 3 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 0.648213, 0, 0, 0, -4.37114e-08, -1, 0, 0.70484, -3.08095e-08, 0, 1.47979, 0 )
+shape = SubResource( 1 )
+
+[node name="CameraPivot" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.26694, -0.189578 )
+
+[node name="Camera" type="Camera" parent="CameraPivot"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.146593, 0 )
+fov = 50.6285
+
+[node name="Spatial" parent="CameraPivot" instance=ExtResource( 2 )]
+transform = Transform( -0.437025, 0, -3.82059e-08, 0, 0.437025, 0, 3.82059e-08, 0, -0.437025, 0.422155, -0.467036, -0.878954 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+margin_left = 3.0
+margin_top = 7.0
+margin_right = 104.0
+margin_bottom = 86.0
+custom_colors/font_color = Color( 1, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Rec"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CanvasLayer"]
+autoplay = "blinking"
+anims/RESET = SubResource( 3 )
+anims/blinking = SubResource( 4 )
+
+[node name="collider" type="Area" parent="." groups=["player"]]
+
+[node name="CollisionShape" type="CollisionShape" parent="collider"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.67964, 0 )
+shape = SubResource( 5 )
