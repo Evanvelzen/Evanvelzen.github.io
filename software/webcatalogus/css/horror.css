@@ -1,0 +1,72 @@
+body{
+    background-image: url(/Images/Background\ Console.png);
+    
+}
+
+
+
+.images-size{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(auto, 5px);
+    gap: 10px;
+    grid-template-areas: 
+    ". g1 g2 g3 ."
+    ". . . . ."
+    ". . . . ."
+    ". g4 g6 g9 ."
+    ". . . . ."
+    ". . . . ."
+    ". g7 g8 g5 .";
+}
+.text{
+    width: 300px;
+}
+.bottom{
+    width: 100px;
+    grid-area: bt;
+}
+.box{
+    height: 500px;
+}
+.game1{
+    grid-area: g1;
+}
+.game2{
+    grid-area: g2;
+}
+.game3{
+    grid-area: g3;
+}
+.game4{
+    grid-area: g4;
+}
+.game5{
+    grid-area: g5;
+}
+.game6{
+    grid-area: g6;
+}
+.game7{
+    grid-area: g7;
+}
+.game8{
+    grid-area: g8;
+}
+.game9{
+    grid-area: g9;
+}
+.return{
+    font-size: 60px;
+    width: 180px;
+    cursor: pointer;
+}
+
+.game-deleted{
+    display: none;
+}

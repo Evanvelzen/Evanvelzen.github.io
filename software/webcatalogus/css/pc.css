@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://media.idownloadblog.com/wp-content/uploads/2021/07/Windows-11-wallaper-for-iPhone-mattbirchler-idownloadblog-2.jpg);
+    background-size: cover;
+}
+
+.width{
+    width: 275px;
+}
+
+.card-img{
+    width: 150px;
+    height: 150px;
+}
+
+.wider{
+    width: 395;
+}
+
+.border-dark{
+    border: 2px solid black;
+}
+
+.bs-card-img{
+    height: 150px;
+}
+
+.bg-dark{
+    background-color: black;
+}
+
+.bg-dark-red{
+    background-color: darkred;
+}

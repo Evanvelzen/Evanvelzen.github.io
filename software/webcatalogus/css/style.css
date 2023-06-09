@@ -1,0 +1,135 @@
+body{
+    background-image: url(/Images/Home-Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    
+    display: grid;
+    width: 100%;
+    height: 952px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(auto, 50px);
+    grid-template-areas: 
+    "vg vg vg vg"
+    "sd . . ."
+    "sd . . ."
+    "sd . . ."
+    "sd . . ."
+    "sd rpg hr sv"
+    "sd tx1 tx2 tx3"
+    "sd . . ."
+    "sd . . ."
+    "sd . . ."
+    "sd . . ."
+    "sd . . ."
+    "sd . . .";
+}
+
+.box{
+
+    height: 250px;
+    width: 250px;
+}
+
+.video-games{
+    background-image: url(/Images/Video\ Games.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    grid-area: vg;
+}
+.sidebar{
+    text-align: center;
+    border-radius: 40px;
+    width: 300px;
+    grid-area: sd;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(auto, 50px);
+    grid-template-areas: 
+    "hm hm hm hm"
+    ". . . ."
+    "st st st st"
+    ". . . ."
+    "ct ct ct ct"
+    ". . . ."
+    "at at at at";
+}
+.rpg{
+    cursor: pointer;
+    background-image: url(/Images/logo-mobilegame.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: rpg;
+}
+.horror{
+    cursor: pointer;
+    background-image: url(/Images/Controller\ support.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: hr;
+}
+.survive{
+    cursor: pointer;
+    background-image: url(https://nzxt.com/assets/cms/34299/1626207059-starterpc3-white-2000x2000-hero.png?auto=format&fit=crop&h=1000&w=1000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: sv;
+}
+
+.text{
+    width: 250px;
+    height: 400px;
+}
+.text1{
+    background-color: rgb(141, 141, 8);
+    grid-area: tx1;
+}
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    grid-area: tx2;
+}
+.text3{
+    grid-area: tx3;
+}
+
+.home{
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: rgb(245, 120, 53);
+    grid-area: hm;
+}
+.contact{
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(85, 155, 4);
+    grid-area: ct;
+}
+.about{
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(85, 155, 4);
+    grid-area: at;
+}
+.start{
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(85, 155, 4);
+    grid-area: st;
+}
+.genre{
+    font-size: 20px;
+}
+.catagory{
+    font-size: 25px;
+}
+.age{
+    float: right;
+}
