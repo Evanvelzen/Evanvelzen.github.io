@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(23, 55, 94);
+}
+
+.wrapper{
+    display: grid;
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    grid-template-columns: repeat(12, 40px);
+    grid-template-rows: repeat(12, 70px) ;
+    grid-template-areas: 
+    ". . . . . . . . . . . ."
+    "title title title title title title title title title title title title"
+    ". . . . . . . . . . . ."
+    "start start start start start start start start start start start start"
+    "start start start start start start start start start start start start"
+    ". . . . . . . . . . . ."
+    "about about about about about about about about about about about about"
+    "about about about about about about about about about about about about";
+
+}
+
+.box{
+    text-align: center;
+    line-height: 140px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+.div1{
+    grid-area: title;
+    line-height: 70px;
+}
+
+.div2{
+    grid-area: start;
+}
+
+.div3{
+    grid-area: about;
+}

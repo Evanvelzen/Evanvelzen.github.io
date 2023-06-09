@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(23, 55, 94);
+}
+
+.wrapper{
+    width: 600px;
+    height: 700px;
+    margin: auto;
+   
+    
+}
+
+p{
+    border: 1px solid white;
+    color: white ;
+}
+
+img{
+    margin: 10px;
+}
+
+.game-button{
+    float: right;
+}
+

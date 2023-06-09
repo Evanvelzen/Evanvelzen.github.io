@@ -1,0 +1,80 @@
+#wrapper{
+    background-color: rgb(4, 97, 123);
+    height: 750px;
+}
+
+.footer{
+    background-color: green;
+    
+}
+
+*{
+    margin: 0;
+}
+
+.hoger{
+ position: relative;
+ top: 200px;
+}
+
+.lager{
+    position: relative;
+    top: 350px;
+    right: 180px;
+}
+
+.river{
+    position: relative;
+    left: 600px;
+    top: -200px;
+}
+.bridge{
+    position: relative;
+    top: -280px;
+    left: 490px;
+}
+
+.town{
+    position: relative;
+    top: 490px;
+    left: 800px;
+}
+
+.casino{
+    position: relative;
+    top: 490px;
+}
+
+#title{
+    width: 300px;
+    height: 40px;
+    background: red;
+    text-align: center;
+    font-size: 20px;
+    font-family: verdana;
+    position: relative;
+    top: 50px;
+    left: 470px
+}
+
+#scorelist{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: -200px;
+    left: 0px;
+    background-color: red;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+#startbutton{
+    width: 120px;
+    height: 80px;
+    background: yellow;
+    position: relative;
+    left: 1000px;
+    top: 250px; 
+    font-family: verdana;
+    font-size: 20px;
+}
