@@ -1,0 +1,125 @@
+body {
+    background-color: rgba(119, 147, 60);
+    margin: auto;
+}
+
+.wrapper{
+    margin-top: 10px;
+    background-color: rgba(119, 147, 60);
+    height: 500px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(12, 20px);
+    grid-template-rows: repeat(13, 25px);
+    gap: 10px;
+    margin-left: 10px;
+    grid-template-areas:
+    "div1 div1 div1 div1 div2 div2 div2 div2 div3 div3 div3 div3"
+    "div1 div1 div1 div1 div2 div2 div2 div2 div3 div3 div3 div3"
+    "div1 div1 div1 div1 div2 div2 div2 div2 div3 div3 div3 div3"
+    "div1 div1 div1 div1 div2 div2 div2 div2 div3 div3 div3 div3"
+    "div4 div4 div4 div4 div5 div5 div5 div5 div6 div6 div6 div6"
+    "div4 div4 div4 div4 div5 div5 div5 div5 div6 div6 div6 div6"
+    "div4 div4 div4 div4 div5 div5 div5 div5 div6 div6 div6 div6"
+    "div4 div4 div4 div4 div5 div5 div5 div5 div6 div6 div6 div6"
+    "div7 div7 div7 div7 div8 div8 div8 div8 div9 div9 div9 div9"
+    "div7 div7 div7 div7 div8 div8 div8 div8 div9 div9 div9 div9"
+    "div7 div7 div7 div7 div8 div8 div8 div8 div9 div9 div9 div9"
+    "div7 div7 div7 div7 div8 div8 div8 div8 div9 div9 div9 div9"
+    "info info info info info info info info info info info info"
+    ;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+}
+
+@media (min-width: 700px){
+
+body {
+    background-color: rgba(119, 147, 60);
+}
+
+.wrapper {
+    background-color: rgba(119, 147, 60);
+    padding-top: 10px;
+    height: 600px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(12, 40px);
+    grid-template-rows: repeat(13, 40px);
+    gap: 10px;
+    margin: auto;
+    grid-template-areas: 
+    "div1 div1 div1 div1 div2 div2 div2 div2 div3 div3 div3 div3"
+    "div1 div1 div1 div1 div2 div2 div2 div2 div3 div3 div3 div3"
+    "div1 div1 div1 div1 div2 div2 div2 div2 div3 div3 div3 div3"
+    "div1 div1 div1 div1 div2 div2 div2 div2 div3 div3 div3 div3"
+    "div4 div4 div4 div4 div5 div5 div5 div5 div6 div6 div6 div6"
+    "div4 div4 div4 div4 div5 div5 div5 div5 div6 div6 div6 div6"
+    "div4 div4 div4 div4 div5 div5 div5 div5 div6 div6 div6 div6"
+    "div4 div4 div4 div4 div5 div5 div5 div5 div6 div6 div6 div6"
+    "div7 div7 div7 div7 div8 div8 div8 div8 div9 div9 div9 div9"
+    "div7 div7 div7 div7 div8 div8 div8 div8 div9 div9 div9 div9"
+    "div7 div7 div7 div7 div8 div8 div8 div8 div9 div9 div9 div9"
+    "div7 div7 div7 div7 div8 div8 div8 div8 div9 div9 div9 div9"
+    "info info info info info info info info info info info info"
+    "info info info info info info info info info info info info"
+    ;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+}
+
+}
+.div1 {
+    grid-area: div1;
+}
+
+.div2 {
+    grid-area: div2;
+}
+
+.div3 {
+    grid-area: div3;
+}
+
+.div4 {
+    grid-area: div4;
+}
+
+.div5 {
+    grid-area: div5;
+}
+
+.div6 {
+    grid-area: div6;
+}
+
+.div7 {
+    grid-area: div7;
+}
+
+.div8 {
+   grid-area: div8;
+}
+
+.div9 {
+    grid-area: div9;
+}
+
+.info {
+    background-color: white;
+    border: 1px solid black;
+    grid-area: info;
+}
+
