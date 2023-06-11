@@ -14,6 +14,8 @@ const projectSoftware = {
       img: "img/hogerlager img.png",
       text: `Dit is een digitale versie van het drank spel hoger lager. Dit is samen met David Aalderink gemaakt als schoolproject. gemaakt in het jaar 2022.`,
       link: "/software/hoger lager (2)/hoger lager project/homepage project/index.html",
-    }, {title: "webcatalogus"},
+    },
+    { title: "webcatalogus",
+  img: "" },
   ],
 };
