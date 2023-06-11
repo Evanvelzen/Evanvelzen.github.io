@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=2]
-
-[ext_resource path="res://3D Models/Base.glb" type="PackedScene" id=1]
-
-[node name="Spatial" type="Spatial"]
-
-[node name="Base" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.2477, -14.0205, -24.1598 )
