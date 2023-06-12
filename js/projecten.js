@@ -1,12 +1,12 @@
-const software = document.querySelector(".software");
-const overign = document.querySelector(".overig");
+const soft = document.querySelector(".software");
+const overig = document.querySelector(".overig");
 
 const projectSoftware = {
   projecten: [
     {
       title: "boter, kaas en eieren",
       img: "/img/tic tac toe.png",
-      text: `dit is een digitale versie van het spel boter kaas en eieren. het spel is gemaakt in 2022. het spel heeft het thema van de boeren protesten die er toen waren. het spel zelf detecteerd of er iemand gewonnen heeft. ook laat spel zien wie er aan de beurt is.`,
+      text: `Dit is een digitale versie van het spel boter kaas en eieren. het spel is gemaakt in 2022. het spel heeft het thema van de boeren protesten die er toen waren. het spel zelf detecteerd of er iemand gewonnen heeft. ook laat spel zien wie er aan de beurt is.`,
       link: "/software/boter kaas en eieren/index.html",
     },
     {
@@ -15,7 +15,41 @@ const projectSoftware = {
       text: `Dit is een digitale versie van het drank spel hoger lager. Dit is samen met David Aalderink gemaakt als schoolproject. gemaakt in het jaar 2022.`,
       link: "/software/hoger lager (2)/hoger lager project/homepage project/index.html",
     },
-    { title: "webcatalogus",
-  img: "" },
+    {
+      title: "webcatalogus",
+      img: "/img/webcatalogus.png",
+      text: `Een webcatalogus gefocust op games gemaakt samen met Nathen Alberto en David Aalderink`,
+      link: "/software/webcatalogus/index.html",
+    },
+    {
+      title: "escape Room",
+      img: "img/escaperoom.png",
+      text: "Een escape Room samen met Jayden Smink gemaakt, helaas werkt kan je enkelt rond lopen en het ",
+      link: "/software/escaproom/index.html",
+    },
+    {
+      title: "Battle of Midway (zeeslag)",
+      
+      text: "D is een digitale versie van zeeslag gebasseerd op de zeeslag bij het eiland zeeslag. helaas niet werkt het spel zelf niet.",
+      link: "/software/Battle of Midway (game)/index.html"
+    },{
+      title: "slender the missing soul",
+      
+      text: "Dit spel gemaakt op de godot engine is een horror spel"
+    }
   ],
 };
+
+for (let index = 0; index < projectSoftware.projecten.length; index++) {
+  const software = projectSoftware.projecten[index];
+  soft.innerHTML += `<div class="col-md-3 mt-3 d-flex align-items-stretch"> <div class="card ">
+         <img class="card-img-top" src="${software.img}">
+        <div class="card-body">
+              
+              <h4 class="card-title">${software.title}</h4>
+    
+              <a class="text-primary text-decoration-none " href="${software.link}">link to social</a>
+          </div>
+      </div>
+     </div>`
+}
