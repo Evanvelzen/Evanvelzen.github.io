@@ -29,26 +29,27 @@ const projectSoftware = {
     },
     {
       title: "Battle of Midway (zeeslag)",
-      
+      img: " /img/zeeslag.png",
       text: "D is een digitale versie van zeeslag gebasseerd op de zeeslag bij het eiland zeeslag. helaas niet werkt het spel zelf niet.",
       link: "/software/Battle of Midway (game)/index.html"
     },{
       title: "slender the missing soul",
-      
-      text: "Dit spel gemaakt op de godot engine is een horror spel"
+      img: "/img/slender.jpg",
+      text: "Dit spel gemaakt op de godot engine is een horror spel",
+      link: "https://github.com/Evanvelzen/Evanvelzen.github.io"
     }
   ],
 };
 
 for (let index = 0; index < projectSoftware.projecten.length; index++) {
   const software = projectSoftware.projecten[index];
-  soft.innerHTML += `<div class="col-md-3 mt-3 d-flex align-items-stretch"> <div class="card ">
+  soft.innerHTML += `<div class="col-md-3 mt-3 d-flex align-items-stretch img-fluid"> <div class="card ">
          <img class="card-img-top" src="${software.img}">
         <div class="card-body">
               
               <h4 class="card-title">${software.title}</h4>
-    
-              <a class="text-primary text-decoration-none " href="${software.link}">link to social</a>
+              <p class="card-text">${software.text}</p>
+              <a href="${software.link}" class="btn btn-primary">naar project</a>
           </div>
       </div>
      </div>`

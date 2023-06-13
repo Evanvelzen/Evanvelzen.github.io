@@ -1,5 +1,5 @@
 body{
-    background-image: url(/Images/Home-Background.png);
+    background-image: url(/software/webcatalogus/Images/Home-Background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -35,7 +35,7 @@ body{
 }
 
 .video-games{
-    background-image: url(/Images/Video\ Games.png);
+    background-image: url(/software/webcatalogus/Images/Video\ Games.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 150px;
@@ -59,14 +59,14 @@ body{
 }
 .rpg{
     cursor: pointer;
-    background-image: url(/Images/logo-mobilegame.jpeg);
+    background-image: url(/software/webcatalogus/Images/logo-mobilegame.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     grid-area: rpg;
 }
 .horror{
     cursor: pointer;
-    background-image: url(/Images/Controller\ support.png);
+    background-image: url(/software/webcatalogus/Images/Controller\ support.png);
     background-size: cover;
     background-repeat: no-repeat;
     grid-area: hr;
