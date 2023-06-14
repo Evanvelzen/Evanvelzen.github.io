@@ -32,11 +32,12 @@ const projectSoftware = {
       img: " /img/zeeslag.png",
       text: "D is een digitale versie van zeeslag gebasseerd op de zeeslag bij het eiland zeeslag. helaas niet werkt het spel zelf niet.",
       link: "/software/Battle of Midway (game)/index.html"
-    },{
-      title: "slender the missing soul",
-      img: "/img/slender.jpg",
-      text: "Dit spel gemaakt op de godot engine is een horror spel",
-      link: "https://github.com/Evanvelzen/Evanvelzen.github.io"
+    },
+    {
+      title: "dashboard",
+      img:"",
+      text: "",
+      link: "/software/dashboard/home.html"
     }
   ],
 };
