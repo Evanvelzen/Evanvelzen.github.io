@@ -11,7 +11,7 @@ const projectSoftware = {
     },
     {
       title: "hoger lager",
-      img: "img/hogerlager img.png",
+      img: "img/hogerlager img.PNG",
       text: `Dit is een digitale versie van het drank spel hoger lager. Dit is samen met David Aalderink gemaakt als schoolproject. gemaakt in het jaar 2022.`,
       link: "/software/hoger lager (2)/hoger lager project/homepage project/index.html",
     },
@@ -23,7 +23,7 @@ const projectSoftware = {
     },
     {
       title: "escape Room",
-      img: "img/escaperoom.png",
+      img: "/img/escaperoom.png",
       text: "Een escape Room samen met Jayden Smink gemaakt, helaas werkt kan je enkelt rond lopen en het ",
       link: "/software/escaproom/index.html",
     },
