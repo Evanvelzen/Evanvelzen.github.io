@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Arcade Games</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="/css/arcade.css">
+</head>
+
+<body class="bg-dark">
+    <!-- Dit is de navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-success ">
+        <div class="container animate__animated animate__fadeInLeft animate__delay-1s">
+            <a class="navbar-brand" href="#">
+                <h1>Dashboard</h1>
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/home.html" aria-current="page">Home <span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Chatbots</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="/chatbots/weerstation/chatbot-weerstation.html">Weerstation
+                                Chatbot</a>
+                            <a class="dropdown-item" href="/chatbots/Arcade/Cadey-Bot.html">Game Arcade Chatbot</a>
+                            <a class="dropdown-item" href="/chatbots/Valuta/Valuta.html">Valuta Chatbot</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <h1 class="justify-content-start">Arcade Dashboard</h1>
+        </div>
+    </nav>
+    <!-- Hier komt de content -->
+    <div class="container-fluid">
+        <!-- Deze row is het informatie gedeelte -->
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <div class="col-md-12 p-2"></div>
+                <div class="row">
+                    <div class="col-md-4 bg-white p-1"><img class="border border-info border-5 img-fluid"
+                            src="/Dashboards/Nathan/Img/Tetris.png" alt="Tetris.png"></div>
+                    <div class="col-md-8 bg-white p-1">Tetris was uitgebracht op 6 Juni 1984. De uitvinder was een
+                        Russische softwareontwikkelaar, die sinds 1991 in de Verenigde Staten woont. Hoewel Aleksej
+                        Pazjitnov een van de meest bekende spellen heeft ontworpen, had hij helaas er niet veel aan
+                        kunnen verdienen.
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-4 bg-white p-1"><img class="border border-warning border-5 img-fluid"
+                            src="/Dashboards/Nathan/Img/Space-Invader.png" alt="Space-Invader.png"></div>
+                    <div class="col-md-8 bg-white p-1">Space Invaders is een Japans schietspel dat in 1978 werd
+                        uitgebracht door Taito. Het is ontwikkeld door Tomohiro Nishikado, die zich liet inspireren door
+                        andere media: Breakout, The War of the Worlds en Star Wars.</div>
+
+                </div>
+                <div class="row">
+
+                    <div class="col-md-4 bg-white p-1"><img class="border border-danger border-5 img-fluid"
+                            src="/Dashboards/Nathan/Img/Pac-man.png" alt="Pac-Man.png"></div>
+                    <div class="col-md-8 bg-white p-1">Pac-Man is een Japanse franchise voor videogames die is
+                        ontwikkeld, uitgegeven door en eigendom is van Bandai Namco Entertainment, een uitgever van
+                        videogames die voorheen bekend stond als Namco.</div>
+
+                </div>
+                <div class="row">
+
+                    <div class="col-md-4 bg-white p-1"><img class="border border-dark border-5 img-fluid"
+                            src="/Dashboards/Nathan/Img/DK.png" alt="Donkey Kong.png"></div>
+                    <div class="col-md-8 bg-white p-1">Donkey Kong[c] is a 1981 arcade video game developed and
+                        published by Nintendo. As Mario, the player runs and jumps on platforms and climbs ladders to
+                        ascend a construction site and rescue Pauline from the titular giant gorilla. It is the first
+                        game in the Donkey Kong series as well as Mario's first appearance in a video game.</div>
+
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <br>
+                <div class="row">
+                    <div class="col-md-12"><img class="border border-white border-5 img-fluid"
+                            src="/Dashboards/Nathan/Img/Arcade.png" alt=""></div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <!-- Hier komen de Charts -->
+                <div class="row">
+                    <!-- Chart zonder fetch -->
+                    <div class="col-md-10 bg-white p-5"><canvas class="chartInput"></canvas></div>
+                </div>
+                <div class="row">
+                    <!-- Chart met fetch -->
+                    <div class="col-md-10 bg-white p-5"><div class="chartInputFetch"></div></div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+<!-- Link naar de javascript -->
+<script src="/js/arcadeChart.js"></script>
+</html>

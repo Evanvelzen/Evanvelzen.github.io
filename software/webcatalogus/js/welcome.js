@@ -12,5 +12,5 @@ function declined(){
     window.close(true);
 }
 function accepted(){
-    window.location.href = "/index.html";
+    window.location.href = "/software/webcatalogus/index.html";
 }

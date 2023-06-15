@@ -7,7 +7,7 @@ const sendButton = document.querySelector(".sendbutton");
 const dump = document.querySelector(".dump");
 
 function backToHome() {
-    location.href = "/index.html";
+    location.href = "/software/webcatalogus/index.html";
 }
 
 function sendData() {

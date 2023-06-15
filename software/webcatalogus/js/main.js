@@ -15,21 +15,21 @@ about.addEventListener("click", goToAbout);
 start.addEventListener("click", goToStartPage);
 
 function goToRpg (){
-    window.location.href = "/devices/mobile.html";
+    window.location.href = "/software/webcatalogus/devices/mobile.html";
 }
 function goToPC(){
-    window.location.href = "/devices/pc.html";
+    window.location.href = "/software/webcatalogus/devices/pc.html";
 }
 function goToHorror() {
-    window.location.href = "/subject-video-games/category-horror.html"
+    window.location.href = "/software/webcatalogus/subject-video-games/category-horror.html"
 }
 
 function goToContact(){
-    window.location.href = "/other pages/contact.html";
+    window.location.href = "/software/webcatalogus/other pages/contact.html";
 }
 function goToAbout(){
-    window.location.href = "/other pages/about.html";
+    window.location.href = "/software/webcatalogus/other pages/about.html";
 }
 function goToStartPage(){
-    window.location.href = "/other pages/welcome.html";
+    window.location.href = "/software/webcatalogus/other pages/welcome.html";
 }

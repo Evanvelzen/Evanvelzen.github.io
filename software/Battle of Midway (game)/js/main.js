@@ -9,9 +9,9 @@ history.addEventListener('click', goToHistory);
 
 
 function goToInfo(){
-    window.location.href = ('info.html');
+    window.location.href = ('/software/Battle of Midway (game)/info.html');
 }
 
 function goToHistory(){
-    window.location.href = ('history.html');
+    window.location.href = ('/software/Battle of Midway (game)/rules.html');
 }

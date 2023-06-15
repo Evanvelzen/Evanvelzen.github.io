@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-image: url(/Images/Background\ Welcome.png);
+    background-image: url(/software/webcatalogus/Images/Background\ Welcome.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -40,7 +40,7 @@ body{
     "names . . adv";
 }
 .welcome{
-    background-image: url(/Images/Welcome.png);
+    background-image: url(/software/webcatalogus/Images/Welcome.png);
     background-size: cover;
     background-repeat: no-repeat;
     grid-area: wc;
@@ -65,21 +65,21 @@ body{
     gap: 5px;
 }
 .ad1{
-    background-image: url(/Images/Ad1.png);
+    background-image: url(/software/webcatalogus/Images/Ad1.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100px;
     grid-area: ad1;
 }
 .ad2{
-    background-image: url(/Images/Ad2.png);
+    background-image: url(/software/webcatalogus/Images/Ad2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100px;
     grid-area: ad2;
 }
 .ad3{
-    background-image: url(/Images/Ad3.png);
+    background-image: url(/software/webcatalogus/Images/Ad3.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100px;
@@ -87,7 +87,7 @@ body{
 }
 
 .ad4{
-    background-image: url(/Images/Ad4.png);
+    background-image: url(/software/webcatalogus/Images/Ad4.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100px;

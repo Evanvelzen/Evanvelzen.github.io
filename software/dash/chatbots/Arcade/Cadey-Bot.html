@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Chatbot Cadey</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4693/4693547.png" type="image/x-icon">
+</head>
+
+<body class="bg-dark">
+    <!-- Dit is de navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-success ">
+        <div class="container animate__animated animate__fadeInLeft animate__delay-1s">
+            <a class="navbar-brand" href="#">
+                <h1>Cadey-Bot</h1>
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/home.html" aria-current="page">Home <span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Chatbots</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="/chatbots/weerstation/chatbot-weerstation.html">Weerstation
+                                Chatbot</a>
+                            <a class="dropdown-item disabled" href="/chatbots/Arcade/Cadey-Bot.html">Game Arcade
+                                Chatbot</a>
+                            <a class="dropdown-item" href="/chatbots/Valuta/Valuta.html">Valuta Chatbot</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <h1 class="justify-content-start">Chatbot</h1>
+        </div>
+    </nav>
+    <!-- Hier komt de content -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12"><br><br><br></div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 bg-primary">
+                <div class="row">
+                    <div class="col-md-3 "><img src="/chatbots/Arcade/img/Chatbot logo.png" alt="">
+                        <h4>Cadey-bot</h4>
+                    </div>
+                    <div class="col-md-8"></div>
+                    <div class="col-md-1"><img src="/chatbots/Arcade/img/Light Bulb.png" alt=""></div>
+                </div>
+                <br>
+                <!-- Hier worden de vragen beantwoord -->
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3 bg-info">
+                        <div class="col-md-6 bg-white border border-dark border-2">Hallo. Ik ben uw chatbot. Ik help u
+                            met vragen die u heeft.</div>
+                        <br>
+                        <div class="col-md-6 bg-white border border-dark border-2">Over welk onderwerp wilt u
+                            informatie?</div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6"></div>
+                            <div class="col-md-6 bg-white border border-dark border-2 text-center">Klik een bericht aan
+                            </div>
+                        </div>
+                        <br>
+                        <!-- Hier Type de gebruiker zijn eigen vraag -->
+                        <div class="row">
+                            <input type="text" class="type-text" placeholder="Type hier uw eigen vragen in">
+                            <button class="search">Enter</button>
+                        </div>
+                        <!-- Hier komt de vraag -->
+                        <div class="row">
+                            <div class="col-md-6"></div>
+                            <div class="input-question col-md-6"></div>
+                        </div>
+                        <!-- Hier komt het antwoord -->
+                        <div class="row">
+                            <div class="cadey-bot-answer"></div>
+                            <div class="col-md-6"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12"><br></div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-2 bg-white border border-dark border-2 text-center p-4 history-button">
+                                Geschiedenis</div>
+                            <div class="col-md-1"></div>
+                            <div
+                                class="col-md-2 bg-white border border-dark border-2 text-center p-4 popularity-button">
+                                Populariteit</div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2 bg-white border border-dark border-2 text-center p-4 genre-button">
+                                Soorten</div>
+                            <div class="col-md-2"></div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-2 bg-white border border-dark border-2 text-center p-4 engin-button">
+                                engin-button</div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2 bg-white border border-dark border-2 text-center p-4 company-button">
+                                Bedrijven</div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2 bg-white border border-dark border-2 text-center p-4 speedrun-button">
+                                Speedrunners</div>
+                            <div class="col-md-2"></div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-2 bg-white border border-dark border-2 text-center p-4 info-button">
+                                Beschrijving</div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2 bg-white border border-dark border-2 text-center p-4 opinion-button">
+                                Mening</div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2 bg-white border border-dark border-2 text-center p-4 home-button">Geen
+                                vragen meer</div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="/js/arcade.js"></script>
+</body>
+
+</html>

@@ -58,8 +58,8 @@ class OverworldMap {
 
 window.OverworldMaps = {
     DemoRoom: {
-        lowerSrc: "/images/maps/DemoLower.png",
-        upperSrc: "/images/maps/DemoUpper.png",
+        lowerSrc: "/software/escaproom//images/maps/DemoLower.png",
+        upperSrc: "/software/escaproom//images/maps/DemoUpper.png",
 
         gameObjects: {
             hero: new Person({
@@ -70,7 +70,7 @@ window.OverworldMaps = {
             npc1: new Person({
                 x: utils.withGrid(7),
                 y: utils.withGrid(9),
-                src: "/images/characters/people/PrisonGuardNew.png",
+                src: "/software/escaproom//images/characters/people/PrisonGuardNew.png",
                 behaviorLoop: [
                     { type: "walk", direction: "left" },
                     // { type: "stand", direction: "up", time: 800 },

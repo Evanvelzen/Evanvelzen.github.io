@@ -1,0 +1,122 @@
+[
+    {
+      "title": "Pac-Man",
+      "description": "Guide Pac-Man through a maze, eat pellets, and avoid ghosts.",
+      "difficulty": "Moderate",
+      "publish_date": "1980-05-22",
+      "levels": 256
+    },
+    {
+      "title": "Donkey Kong",
+      "description": "Rescue the princess from the clutches of Donkey Kong.",
+      "difficulty": "Challenging",
+      "publish_date": "1981-07-09",
+      "levels": 4
+    },
+    {
+      "title": "Space Invaders",
+      "description": "Defend the Earth from descending aliens by shooting them down.",
+      "difficulty": "Easy",
+      "publish_date": "1978-06-01",
+      "levels": 10
+    },
+    {
+      "title": "Galaga",
+      "description": "Control a spaceship and defeat waves of alien enemies.",
+      "difficulty": "Moderate",
+      "publish_date": "1981-10-01",
+      "levels": 255
+    },
+    {
+      "title": "Tetris",
+      "description": "Arrange falling blocks to complete lines and score points.",
+      "difficulty": "Easy",
+      "publish_date": "1984-06-06",
+      "levels": 0
+    },
+    {
+      "title": "Centipede",
+      "description": "Shoot and destroy a centipede as it moves across the screen.",
+      "difficulty": "Moderate",
+      "publish_date": "1980-06-01",
+      "levels": 12
+    },
+    {
+      "title": "Super Mario Bros.",
+      "description": "Embark on an adventure to rescue Princess Peach from Bowser.",
+      "difficulty": "Moderate",
+      "publish_date": "1985-09-13",
+      "levels": 32
+    },
+    {
+      "title": "Donkey Kong Jr.",
+      "description": "Help Donkey Kong Jr. save his father from Mario's clutches.",
+      "difficulty": "Challenging",
+      "publish_date": "1982-07-31",
+      "levels": 4
+    },
+    {
+      "title": "Frogger",
+      "description": "Guide frogs across busy roads and rivers without getting hit.",
+      "difficulty": "Easy",
+      "publish_date": "1981-10-23",
+      "levels": 11
+    },
+    {
+      "title": "Mortal Kombat",
+      "description": "Engage in brutal combat against opponents in a tournament.",
+      "difficulty": "Difficult",
+      "publish_date": "1992-10-08",
+      "levels": 8
+    },
+    {
+      "title": "Dig Dug",
+      "description": "Dig tunnels, defeat enemies, and inflate them until they pop.",
+      "difficulty": "Moderate",
+      "publish_date": "1982-04-19",
+      "levels": 256
+    },
+    {
+      "title": "Street Fighter II",
+      "description": "Engage in intense hand-to-hand combat with a variety of fighters.",
+      "difficulty": "Difficult",
+      "publish_date": "1991-02-06",
+      "levels": 12
+    },
+    {
+      "title": "Q*bert",
+      "description": "Change the colors of cubes to clear levels and avoid enemies.",
+      "difficulty": "Moderate",
+      "publish_date": "1982-10-01",
+      "levels": 7
+    },
+    {
+      "title": "Raiden",
+      "description": "Pilot a fighter aircraft to defeat enemy forces and bosses.",
+      "difficulty": "Difficult",
+      "publish_date": "1990-09-14",
+      "levels": 7
+    },
+    {
+      "title": "Asteroids",
+      "description": "Navigate a spaceship through an asteroid field and shoot them down.",
+      "difficulty": "Moderate",
+      "publish_date": "1979-11-01",
+      "levels": 1
+    },
+    {
+      "title": "Galaxian",
+      "description": "Control a spaceship and defeat groups of enemy aliens.",
+      "difficulty": "Easy",
+      "publish_date": "1979-10-01",
+      "levels": 255
+    },
+    {
+      "title": "Arkanoid",
+      "description": "Bounce a ball against bricks to destroy them and clear levels.",
+      "difficulty": "Moderate",
+      "publish_date": "1986-06-01",
+      "levels": 33
+    }
+  ]
+  
