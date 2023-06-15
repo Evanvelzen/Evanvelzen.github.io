@@ -30,13 +30,13 @@ const projectSoftware = {
     {
       title: "Battle of Midway (zeeslag)",
       img: " /img/zeeslag.png",
-      text: "D is een digitale versie van zeeslag gebasseerd op de zeeslag bij het eiland zeeslag. helaas niet werkt het spel zelf niet.",
+      text: "Dit is een digitale versie van zeeslag gebasseerd op de zeeslag bij het eiland zeeslag. helaas niet werkt het spel zelf niet.",
       link: "/software/Battle of Midway (game)/index.html"
     },
     {
       title: "dashboard",
-      img:"",
-      text: "",
+      img:"img/dashboard.png",
+      text: "Dit is een dashboard gemaak in 2023 samen met David Alderink en Nathen ALberto. De Dasshboards gaan over Valuta, het Weer en over games",
       link: "/software/dashboard/home.html"
     }
   ],

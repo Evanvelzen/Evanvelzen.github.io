@@ -18,7 +18,7 @@ button.addEventListener('click', checkLoginInfo)
 const localstorage = window.localStorage.getItem('token');
 
 if (localstorage == "panzergranate 39") {
-    window.location.href = ('home.html');
+    window.location.href = ('/software/dashboard/home.html');
 }
 //Here is the function that verifies the entered information.
 function checkLoginInfo() {
@@ -29,13 +29,13 @@ function checkLoginInfo() {
     //If not correct it will display an alert. if correct it will send the person to the homepage.
     if (usernameEntered.value == username1) {
         if (passwordEntered.value == password1) {
-            window.location.href = ('home.html');
+            window.location.href = ('/software/dashboard/home.html');
 
             window.localStorage.setItem('token', 'panzergranate 39');
         } else { alert("het wachtwoord is incorrect") }
     } else if (usernameEntered.value == username2) {
         if (passwordEntered.value == password2) {
-            window.location.href = ('home.html');
+            window.location.href = ('/software/dashboard/home.html');
 
             window.localStorage.setItem('token', 'panzergranate 39');
         } else { alert("het wachtwoord is incorrect") }
