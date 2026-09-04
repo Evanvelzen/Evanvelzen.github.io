@@ -1,8 +1,8 @@
 const drop = document.querySelector(".location")
 const personal = document.querySelector(".personal-info")
 const profile = {
-    emailAdress: "SchoolEmail: 302942781@student.rocmondriaan.nl.",
-    username: "Gebruikersnaam: EvanVelzen.",
+    emailAdress: "SchoolEmail: e.vanvelzen@student.fontys.nl",
+    username: "Naam: Emiel van Velzen.",
     birthdate: "Verjaardag : 22-05-2003",
     biography: "Ik ben geboren op 22 mei 2003 en getochen in Nederland.",
     education: "Ik doe op het moment software development bij het ROC Mondriaan.",
