@@ -11,11 +11,11 @@ const profile = {
     socialMedia: [{
         title: "Facebook",
         img: "/img/facebook icon.png",
-        link: "https://www.facebook.com/profile.php?id=100008801014229"
+        link: ""
     }, {
         title: "Instagram",
         img: "/img/Instagram_icon.png",
-        link: "https://www.instagram.com/emielvanvelzen/"
+        link: ""
     }]
 }
 
